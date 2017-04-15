@@ -42,10 +42,10 @@ px[i]=new pessoa(p1.getPeso(),p1.getAltura(),p1.getImc());
 }
   i=0;
   for(;i<px.length;i++){ 
-      System.out.println((i+1)+"ª Pessoa");
-    System.out.println(px[i].getAltura());
-    System.out.println(px[i].getPeso());
-    System.out.println(px[i].getImc());
+      System.out.println((i+1)+"a Pessoa");
+    System.out.println("altura: "+px[i].getAltura());
+    System.out.println("peso: "+px[i].getPeso());
+    System.out.println("imc: "+px[i].getImc()+"\n\n");
   }
     /*
 for(int o=0;i<px.length;o++){  
