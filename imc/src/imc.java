@@ -41,7 +41,7 @@ px[i]=new pessoa(p1.getPeso(),p1.getAltura(),p1.getImc());
 }
   i=0;
   for(;i<px.length;i++){ 
-      System.out.println("Pessoa "+(i+1));
+      System.out.println("Pessoa "+(i+1)+"ª");
     System.out.println(px[i].getAltura());
     System.out.println(px[i].getPeso());
     System.out.println(px[i].getImc());
